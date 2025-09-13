@@ -2,3 +2,4 @@ venv/
 mlruns/
 logs/
 ML_OPS_First_Project.egg-info/
+notebook/
