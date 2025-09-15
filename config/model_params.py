@@ -2,10 +2,12 @@ from scipy.stats import randint,uniform
 
 LIGHTGM_PARAMS={
     'n_estimators':randint(100,500),
-    'max_dept':randint(5,50),
+    'max_depth':randint(5,50),
     'learning_rate':uniform(0.01,0.2),
     'num_leaves': randint(20,100),
-    'boosting_type':['gbdt','dart','goss']
+    "boosting_type": "gbdt",
+    "data_sample_strategy": "goss"
+
 }
 
 RANDOM_SEARCH_PARAMS={
