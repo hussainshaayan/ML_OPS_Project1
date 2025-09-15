@@ -5,8 +5,7 @@ LIGHTGM_PARAMS={
     'max_depth':randint(5,50),
     'learning_rate':uniform(0.01,0.2),
     'num_leaves': randint(20,100),
-    "boosting_type": "gbdt",
-    "data_sample_strategy": "goss"
+    'boosting_type' : ['gbdt' , 'dart' , 'goss']
 
 }
 
