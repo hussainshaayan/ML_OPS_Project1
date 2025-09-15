@@ -1,3 +1,7 @@
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
 from src.data_ingestion import DataIngestion
 from src.data_preprocessing import DataProcessor
 from src.model_training import ModelTraining
