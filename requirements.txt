@@ -9,3 +9,4 @@ imbalanced-learn
 statsmodels
 lightgbm
 mlflow
+flask
